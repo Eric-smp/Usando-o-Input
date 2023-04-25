@@ -1,0 +1,7 @@
+position relative= ficar relativo a ao espaço que ela está
+
+position absolute: sobresai sobre os elementos de um espaço, podedendo ser comidificado de diversas formas
+
+postivion fixed: Essa posição fica fixa em toda página, até o final dela
+
+Position z-index: Deixa os elementos em cima do outro

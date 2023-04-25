@@ -1,0 +1,11 @@
+BACKGROUND:
+
+- Brackground-color: Muda a cor de fundo 
+- Bacnkground-image: É usada a url() com o edenreço da imagem
+- Background-repeat: Se a imagem vai se repetir ou não (repeat) (no-repeat)
+- Background-position: É possível mudar a posição da imagem
+- Background-size: É possível fazer a alteração de tamanho da imagem
+- Background-origin: Consegue modificar a onde a imagem vai começar (boder-box) (padding-box)
+- Background-attachment: Deixa a imagem fixa ou parada(scroll)
+
+- Background: É usado para colocar todas as informações de background em uma unica

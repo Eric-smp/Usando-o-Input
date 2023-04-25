@@ -1,0 +1,15 @@
+Class= Aplicar estilo css e acessar o javascript
+
+contenteditable="true"
+
+
+data-qualquer-nome-aqui
+
+hidden=faz sumir uma tag
+
+id= não pode ser o mesmo 
+
+tabindex= É através do uso do TAB para melhorar para as pessoas que não tem mouse por exemplo
+
+
+Alinhamento de tags

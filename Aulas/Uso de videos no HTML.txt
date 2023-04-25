@@ -1,0 +1,16 @@
+Uso de videos no HTML
+VIDEO:
+É através do uso da tag <video>, caso o video não funcione tentar o contente. Usar o TYPE para diver se é mp4 ou outro tipo de video 
+Pode ser modificado a largura e altura 
+
+AUDIO:
+A mesma coisa do video porem usa o TYPE mp3, usando as mesmas estrátegias do video (controls, autoplay, muted, loop e etc..)
+
+
+IFRAME:
+src: A onde está o video
+height e Width: Para modificar a altura e comprimento do video
+title: O titulo para o video
+frameborder: Para tirar a borda
+allow: para a modificação do video no site (se vai ser automatico. etc..)
+allowfllscreen: Serve para deixa ou não o video em tela cheia, sem ele não é possível 

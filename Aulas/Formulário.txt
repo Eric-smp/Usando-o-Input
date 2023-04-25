@@ -1,0 +1,23 @@
+form: Elemento de denife um formulário
+
+action: É o lugar para onde os dados que o usúario colocar que vai ser enviado 
+
+method: (GET) Um jeito de verbo em http(POST)Eles 
+aparecem de forma escondida
+
+fieldset: Um espaço 
+
+label: Associar ou identificar uma ou mais tag de entrada de dados
+
+for(label): Para fazer a conexão com o input 
+
+button: Serve para enviar formulários 
+
+
+datalist: São listas de valores 
+
+opition: Tag colocado dentro do datalist para serem selecionados 
+
+
+
+

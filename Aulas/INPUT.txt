@@ -1,0 +1,25 @@
+input: Existe diversos tipos (typs) para ser colocado file, password, number, text e etc...
+
+autocomplete: Completa algo que já foi diversas vezes usado 
+
+autofocos: Quando for carregado a página o censor do mouse já vai estar no input 
+
+disabled: Esse atributo desabilita
+
+required: Ele deixa o input obrigatorio sendo impossivel continuar sem ele 
+
+placehoder: Deixa um texto dentro do input como uma identificação 
+
+O for no label precisa estar lincando com algum ID
+
+minlength: É o minimo de caracteres
+maxlength: Máximo de caracteres
+
+pattern: Onde você faz a configuração do que o usúario deve colocar na senha 
+
+inputmode: É colocado para usúario de forma mobile, onde você pode colocar o teclado só com os números
+
+autocomplete: Permite que sugestão de senha
+
+select: Oferece uma opção de seleções 
+

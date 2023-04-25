@@ -1,0 +1,37 @@
+Trabalhando com Elementos:
+
+H1,H2,H3,H4,H5,H6: São estilo de titulos onde vai diminuindo a importancia conforme vai aumentando os H, ou seja h1 é importante h6 não tem tanta importancia 
+
+a: Link de uma palavra no texto, exemplo o 'Saiba mais'
+
+li: Cria listas podendo fazer de forma mais rapido li*X onde vai ser criado diversas listas de uma vez
+
+ol:Deixa a lista de forma ordenada por numeros 
+
+ul:Deixa arrumando com uma identação
+
+blockquote: deixa ele estilizado para fazer citação de algum texto que foi pegado em outro site por exemplo
+
+cite:Deixa em destaque no texto o site que foi pego o texto
+
+q: Usado para citações curtas que não precisam de paragrafos 
+
+abbr: Deixa explicando o significado de uma palavra quando deixmos o ponteiro do mouse em cima da palavra
+
+address:Deixa em destaque o 'endereço' de uma pessoa ou seja o contato 
+
+listas de descrição 
+Marcando um conjunto de itens e sua descrição
+
+dl:Lista de descrição
+
+dt: termo de descrição
+
+dd: descrição do termo 
+
+code: deixa mais evidente a representação 
+
+div: Trabalha com bloco
+span: Deixa tudo em linha sem fazer a quebra de linha
+
+

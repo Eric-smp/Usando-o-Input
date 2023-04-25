@@ -1,0 +1,29 @@
+FONTES
+
+font-family:  Tipo de fonte de um elemento
+
+font-weight: Seria o peso da fonte 
+
+font-style: Se ele é intalico, oblique e etc..
+
+font-size: Seria o tamanho da fonte
+
+web-fonts: Pegar fonts da web quando não tem na sua maquina 
+
+letter-spacing: Faz o espaçamento entre as lestras
+
+word-spacing: Faz o espaçamento de palavras
+
+line-heigth: Faz o espaço entre linhas 
+
+text-transform: Faz modificações das letras, se ela fica maiuscúlas ou minusculas
+
+text-decoration: Faz decorações para colocar no texto.
+text-decoration-style: Para modificar as decorações 
+text-decoration-color: Faz a mudança de cores das decorações
+
+text-aling: Faz a posição do texto, como justificar centralizar e etc..
+
+text-shadown: Faz o deixa uma sombra no texto
+
+font: Você faz toda as modificações em uma única tag
