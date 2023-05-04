@@ -1,2 +1,75 @@
 Sintaxe:
 - Toda linguagem tem sintaxe
+
+Tipos de Dados
+Gramática:
+-Elemntos de linguagem e suas combinações 
+-A arte de falar e escrever corretamente 
+
+
+String: É uma cadeia de caracteres 
+
+ECMAScript faz a padronização do JS, sendo separado por
+-Primitive
+-Structural
+-Structural Primitive
+
+Primitivos:
+- String
+- Number
+- Boolean 
+- Undefined
+- Symbol
+- BigInt
+
+Estruturais:
+-Object:
+	- Array
+	- Map
+	- Set
+	- Date
+-Function
+
+Primitivo Estrutual
+-Null
+
+
+Variáveis:
+Nomes que recebem algum valor
+
+var
+let
+const
+
+Scope
+Escopo determina a visibilidade de alguma varável no JS 
+
+Block Statement (Declaração de bloco)
+
+O var é global e pode funcionar fora do escopo, podendo ser global e local
+
+Hoisting, tira a var do local e coloca no global sem o valor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
