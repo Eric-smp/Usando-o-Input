@@ -1,4 +1,4 @@
-console.log("Olá seja bem vindo") /* Aqui é o primeiro console.log do site */
+/* /* /* console.log("Olá seja bem vindo") /* Aqui é o primeiro console.log do site */
 
 console.log(`Eric Sampaio possui ${5 + 14}`)
 
@@ -399,3 +399,368 @@ const person = {
 delete person.name2
 delete person.nascimento
 console.log(person)
+
+
+/* 
+
+function calcator(){
+  const number1 = document.getElementById('numOne').value
+  const number2 = document.getElementById('numTwo').value
+  let result = number1 + number2
+  const numeros = document.getElementById('numeros').innerHTML=`Esse é o primeiro numero ${number1}, esse é o segundo numero ${number2}`
+
+  console.log(numeros)
+  if(result){
+    document.getElementById('resultado').innerHTML= parseFloat(number1) - parseFloat(number2)
+  }
+
+  if(result){
+    document.getElementById('resultado1').innerHTML= parseFloat(number1) + parseFloat(number2)
+  }
+
+  if(result){
+    document.getElementById('resultado2').innerHTML= parseFloat(number1) * parseFloat(number2)
+  }
+
+  if(result){
+    document.getElementById('resultado3').innerHTML= parseFloat(number1) / parseFloat(number2)
+  }
+
+
+
+} */ */ */ */
+
+
+/* let resto 
+resto = 10 % 
+console.log(resto) */
+
+/* let increment = 0
+increment++
+increment++
+console.log(increment) */
+
+/* let decremente = 0
+decremente--
+decremente--
+console.log(decremente) */
+/* exoponencial
+console.log(3 ** 2) */
+
+// calcular entre parenteses
+
+/* let total = (2 + 3) * 5
+console.log(total) */
+
+
+
+// operadores de comparação 
+
+/* let one = 1
+let two = 2 */
+// == para ver se o numeor é igual a que está na variável
+/* console.log(two == 1)
+console.log(one == "1") */
+
+// != diferente 
+/* console.log(one != two)
+console.log(two != 2)
+console.log(two != 1) */
+
+
+
+
+
+/* let one = 1
+let two = 2 */
+
+// === estritamente igual a 
+/* console.log(one === 1)
+console.log(one === '1') */
+
+
+/* function total(){
+  const macaValor = document.getElementById('maca').value
+  const bananaValor = document.getElementById('banana').value
+  const laranjaValor = document.getElementById('laranja').value
+  
+
+
+
+  const maca = parseFloat(macaValor) * 0.50
+  const banana = parseFloat(bananaValor) * 2.50
+  const laranja = parseFloat(laranjaValor) * 2
+  console.log(maca + banana + laranja)
+  document.getElementById('resumo').innerHTML= `Maças ${macaValor}, Bananas ${bananaValor}, Laranja ${laranjaValor}`
+  document.getElementById('resultado').innerHTML= `Valor do pedido R$ ${maca+banana+laranja}`
+
+
+
+
+
+} */
+
+
+/* let pao = true
+let queijo = false
+ */
+// AND  &&
+/* console.log(pao && queijo ) */
+
+// OR ||
+//console.log(pao || queijo)
+
+// NOT !
+/* console.log(!pao)
+ */
+
+
+/* let pao = true
+let queijo = true */
+// ? então
+// : senão
+/* const niceBreakFast = pao || queijo ? 'Café top' : 'Café ruim'
+
+console.log(niceBreakFast) */
+
+
+/* let age = 20
+const canDrive = age >= 18 ? 'can drive' : 'cannot drive'
+
+console.log(canDrive) */
+
+
+
+
+/*
+	Todos os valores abaixo seriam representados como false em um boolean.
+		false
+    0
+    -0
+    ""
+    null
+    undefined
+    NaN
+*/
+/* console.log(0 ? 'verdadeiro' : 'false') */
+
+/* console.log( ? 'verdadeiro' : 'false') */
+
+
+
+
+
+// De cima para baixo, do mais importante ao menos importante.
+
+/* * grouping                      ( )
+* negação e incremento          ! ++ --
+* multiplicação e divisão       * /
+* adição e subtração            + -
+* relacional                    < <= > >=
+* igualdade                     == != === !==
+* AND                           && 
+* OR                            ||
+* condicional                   ?:
+* assignment (atribuição)       = += -= *= %=  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
