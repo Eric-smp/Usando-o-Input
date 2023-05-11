@@ -33,7 +33,7 @@ function total(){
 
 
   
-  const selecPera = frutas.filter((item)=>{
+  const filterFruits = frutas.filter((item)=>{
     if(item.fruta === 'pera'){
       return item
       
@@ -42,8 +42,8 @@ function total(){
       
     }
   })
-  const resultPera=selecPera[0].valor * parseFloat(peraValor)
-  const resultBanana=selecPera[1].valor * parseFloat(bananaValor)
+  const resultPera=filterFruits[0].valor * parseFloat(peraValor)
+  const resultBanana=filterFruits[1].valor * parseFloat(bananaValor)
   document.getElementById('resumo').innerHTML=resultPera
   document.getElementById('resultado').innerHTML=resultBanana
 
