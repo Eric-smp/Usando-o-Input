@@ -1,27 +1,42 @@
-function result(){
-const valorNota = document.getElementById('nota').value
-console.log(valorNota)
-
-const notaA= parseFloat(valorNota) >=90 && parseFloat(valorNota)<=100
-const notaB = parseFloat(valorNota) >=80 && parseFloat(valorNota)<=89
-const notaC = parseFloat(valorNota) >=70 && parseFloat(valorNota)<=79
-const notaD = parseFloat(valorNota) >=60 && parseFloat(valorNota)<=69
-const notaF = parseFloat(valorNota) >=59
+function total(){
+  const peraValor = document.getElementById('pera').value
+  const bananaValor = document.getElementById('banana').value
+  
+  
+  const frutas = [{fruta:'pera', valor:2.50}, {fruta:'banana', valor:3.50}]
+  console.log(frutas)
 
 
-if(notaA){
-  document.getElementById('resultado').innerHTML= 'Você tirou A'
-}else if(notaB){
-  document.getElementById('resultado').innerHTML= 'Você tirou B'
-}else if(notaC){
-  document.getElementById('resultado').innerHTML= 'Você tirou C'
-}else if(notaD){
-  document.getElementById('resultado').innerHTML= 'Você tirou D'
-}else{
-  document.getElementById('resultado').innerHTML= 'Você tirou F'
+
+  
+  const filterFruits = frutas.filter((item)=>{
+    if(item.fruta === 'pera'){
+      return item
+      
+    }else if(item.fruta === 'banana'){
+      return item
+      
+    }
+  })
+
+  const resultPera=filterFruits[0].valor * parseFloat(peraValor)
+  const resultBanana=filterFruits[1].valor * parseFloat(bananaValor)
+
+  document.getElementById('resumo').innerHTML=resultPera
+  document.getElementById('resultado').innerHTML=resultBanana
+
+  document.getElementById('resultadoTotal').innerHTML=(resultBanana) + (resultPera)
 }
 
 
 
 
-}
+
+
+
+
+
+
+
+
+

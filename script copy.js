@@ -684,6 +684,58 @@ while(i<10){
 
 
 
+/* 
+function result(){
+  const valorNota = document.getElementById('nota').value
+  console.log(valorNota)
+  
+  const notaA= parseFloat(valorNota) >=90 && parseFloat(valorNota)<=100
+  const notaB = parseFloat(valorNota) >=80 && parseFloat(valorNota)<=89
+  const notaC = parseFloat(valorNota) >=70 && parseFloat(valorNota)<=79
+  const notaD = parseFloat(valorNota) >=60 && parseFloat(valorNota)<=69
+  const notaF = parseFloat(valorNota) >=59
+  
+  
+  if(notaA){
+    document.getElementById('resultado').innerHTML= 'Você tirou A'
+  }else if(notaB){
+    document.getElementById('resultado').innerHTML= 'Você tirou B'
+  }else if(notaC){
+    document.getElementById('resultado').innerHTML= 'Você tirou C'
+  }else if(notaD){
+    document.getElementById('resultado').innerHTML= 'Você tirou D'
+  }else{
+    document.getElementById('resultado').innerHTML= 'Você tirou F'
+  }
+  
+  
+  
+  
+  } */
+
+
+
+
+
+
+
+
+
+
+/* 
+
+Cabeçalho <header> = Titulo da página
+
+navegação <nav> = Partes de navegação, onde vai enviar para outra parte e etc...
+
+conteudo principal <main> = Conteudo principal
+
+barra lateral <aside>= Parte lateral da página
+
+rodapé <footer>= parte de baixo do site 
+
+
+ */
 
 
 
@@ -712,6 +764,12 @@ while(i<10){
 
 
 
+/* 
+first-child = primeiro filho 
+nth-of-type = Escolher um elemento que vocês quer através dos "()"
+
+nth-child odd(IMPARES) e even(PARES)
+ */
 
 
 
@@ -728,18 +786,7 @@ while(i<10){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- FOCUS= usado para modificar o <input type="text"> -->
 
 
 
