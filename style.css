@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+div label{
+  margin-left: 10px;
+  margin-right: px;
+}
