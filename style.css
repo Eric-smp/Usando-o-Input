@@ -1,15 +1,10 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container{
+.box{
   display: flex;
-  flex-direction: column;
-  width: 250px;
+  border: 1px dashed red;
+  flex-wrap: wrap;
 }
 
-div label{
-  margin-left: 10px;
-  margin-right: px;
+.box div{
+  border: 1px solid;
+  width: 80px;
 }
