@@ -61,13 +61,9 @@ function alimentos(){
 
   })
 
-  if(filterFrutas){
-    const total = resultBanana + resultPera
-    if(total){
-      document.getElementById('resultado').innerHTML=total
-    }
+  
     
-  }
+
 
   
   
