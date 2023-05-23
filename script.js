@@ -1,7 +1,8 @@
-/* function total(){
-  const peraValor = document.getElementById('pera').value
+function total(){
+  /* const peraValor = document.getElementById('pera').value
   const bananaValor = document.getElementById('banana').value
-
+  
+  
   
   
   const resultPera=filterFruits[0].valor * parseFloat(peraValor)
@@ -9,30 +10,85 @@
   document.getElementById('resumo').innerHTML=resultPera
   document.getElementById('resultado').innerHTML=resultBanana
 
-  document.getElementById('resultadoTotal').innerHTML=(resultBanana) + (resultPera)
+  document.getElementById('resultadoTotal').innerHTML=(resultBanana) + (resultPera) */
+
+  alimentos()
+
+
 }
 
 
 
 
 
-function alimentos(item){
-  const frutas = [{fruta:'pera', id:3}, {fruta:'banana', id:2.50}, {fruta:'manga', id:4.50}, {fruta:'melancia', id:7}, {fruta:'abacate', id:2}, {fruta:'laranja', id:3.50} ]
+function alimentos(){
+  const frutas = [{nome:'pera', valor:3, id:0}, {nome:'banana', valor:2.50, id:1}, {nome:'manga', valor:4.50, id:2}, {nome:'melancia', valor:7, id:3}, {nome:'abacate', valor:2, id:4}, {nome:'laranja', valor:3.50, id:5} ]
 
-  const filterFrutas = frutas.filter((item)=>{
-    if(item.fruta === 'pera'){
-      return 
+  const filterFrutas = frutas.filter((fruta)=>{
+    if(fruta.nome === 'pera'){
+      const resultPera = document.getElementById('pera').value 
+      if(resultPera){
+        document.getElementById('resultado').innerHTML=  3 * parseFloat(resultPera)
+      }
+    }if(fruta.nome === 'banana'){
+      const resultBanana = document.getElementById('banana').value
+      if(resultBanana){
+        document.getElementById('resultado').innerHTML= fruta.valor * parseFloat(resultBanana)
+      }
+    }if(fruta.nome === 'manga'){
+      const resultManga = document.getElementById('manga').value
+      if(resultManga){
+        document.getElementById('resultado').innerHTML= fruta.valor * parseFloat(resultManga)
+      }
+    }if(fruta.nome === 'melancia'){
+      const resultMelancia = document.getElementById('melancia').value
+      if(resultMelancia){
+        document.getElementById('resultado').innerHTML= fruta.valor * parseFloat(resultMelancia)
+      }
+    }if(fruta.nome === 'abacate'){
+      const resultAbacate = document.getElementById('abacate').value
+      if(resultAbacate){
+        document.getElementById('resultado').innerHTML= fruta.valor * parseFloat(resultAbacate)
+      }
+    }if(fruta.nome === 'laranja'){
+      const resultLaranja = document.getElementById('laranja').value
+      if(resultLaranja){
+        document.getElementById('resultado').innerHTML= fruta.valor * parseFloat(resultLaranja)
+      }
     }
+   
+
 
   })
-  
-  
 
+  if(filterFrutas){
+    const total = resultBanana + resultPera
+    if(total){
+      document.getElementById('resultado').innerHTML=total
+    }
+    
+  }
+
+  
+  
 
 
 }
 
- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 
 

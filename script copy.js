@@ -575,7 +575,7 @@ console.log(canDrive) */
 
 
 
-
+//.textContent = Editar texto da pagina 
 
 
 
